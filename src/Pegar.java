@@ -63,12 +63,9 @@ public class Pegar {
 				System.out.println(dv.division());
 			}
 			
-		}while(operation < 4);
-
-		if (operation > 4) {
-			System.out.print("Fim");
-		}		
+			System.out.println(operation < 4 ? "-----------" : "EXIT");
+			
+		}while(operation < 4);	
 		
 	}
-
 }
