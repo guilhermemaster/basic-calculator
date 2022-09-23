@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+import calculate.Divisao;
 import calculate.Multiplicar;
 import calculate.Soma;
 import calculate.Subtracao;
@@ -11,7 +12,8 @@ public class Pegar {
 		Scanner sc = new Scanner(System.in);
 		Soma sm = new Soma();
 		Subtracao sb = new Subtracao();
-		Multiplicar mt = new Multiplicar(); 
+		Multiplicar mt = new Multiplicar();
+		Divisao dv = new Divisao();
 		
 		int valueBeginPrime, valueBeginSecond = 0;
 		
@@ -45,6 +47,15 @@ public class Pegar {
 			mt.setValueSecond(valueBeginSecond);
 			
 			System.out.println(mt.multiplication());
+			
+			operation = 0;
+		}
+		
+		if( operation == 4) {
+			dv.setValuePrime(valueBeginPrime);
+			dv.setValueSecond(valueBeginSecond);
+			
+			System.out.println(dv.division());
 			
 			operation = 0;
 		}

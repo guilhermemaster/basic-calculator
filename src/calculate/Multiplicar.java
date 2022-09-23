@@ -4,16 +4,20 @@ public class Multiplicar {
 	private int valuePrime;
 	private int valueSecond;
 	
-	public int getValuePrime() {
+	public int getValuePrime() 
+	{
 		return valuePrime;
 	}
-	public void setValuePrime(int valuePrime) {
+	public void setValuePrime(int valuePrime)
+	{
 		this.valuePrime = valuePrime;
 	}
-	public int getValueSecond() {
+	public int getValueSecond()
+	{
 		return valueSecond;
 	}
-	public void setValueSecond(int valueSecond) {
+	public void setValueSecond(int valueSecond)
+	{
 		this.valueSecond = valueSecond;
 	}
 	
